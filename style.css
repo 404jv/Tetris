@@ -1,0 +1,28 @@
+body {
+    background-color: #333333;
+    color: white;
+    display: flex;
+}
+
+#score, #speed {
+    display: inline-block;
+}
+
+div {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#game {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#mensagem {
+    left: 30%;
+    top: 12%;
+    position: absolute;
+    font-size: 50pt;
+}

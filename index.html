@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="game">
+        <canvas id="tetris" width="320" height="600">
+
+        </canvas>
+        <div>
+            <p>
+                Record: <span id="record"></span>
+            </p>
+            <p>
+                Score: <span id="score"></span>
+            </p>
+            <p>
+                Speed: <span id="speed"></span>
+            </p>
+        </div>
+        <div id="mensagem">
+        </div>
+        </div>
+    </div>
+
+    
+
+    <script src="/src/piece.js"></script>
+    <script src="/src/skeletons.js"></script>
+    <script src="/src/functions.js"></script>
+    <script src="/src/game.js"></script>
+</body>
+</html>
